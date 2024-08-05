@@ -1,11 +1,12 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: Abigail Starr # your name
+logo: "/images/headshot.jpeg?raw=true" # your photo 
+description: > # your text below
+  A technically proficient Data Science major from The University of Chicago, expected to graduate in Spring 2025, with a 
+  distinctive knack for presentation and visualization. Blends advanced skills in data analysis, machine learning, and programming 
+  with an innate ability to convey complex concepts visually and verbally. Demonstrated experience in academic research, teaching, and 
+  technical production showcases a multifaceted dedication to excellence and effective collaboration across varied domains.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/abigail-starr-58b606231/">LinkedIn</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
