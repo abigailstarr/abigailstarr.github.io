@@ -1,35 +1,25 @@
-## Portfolio
+## Technical Portfolio
+last updated 08/05/2024;
 
 ---
 
-### Category Name 1 
+### Solo Projects
 
-[Project 1 Title](/sample_page)
+[How Much is an Oz of Marijuana](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
+[Clustering Chicago Neighborhoods](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Group Projects
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
+- [RAFI: USA](http://example.com/)
+- [EFCampus — Reducing Energy Usage in Labs](http://example.com/)
+- [Using Neural Networks to Distinguish AI-Generated from Real Art](http://example.com/)
+- [Evaluating a Novel Fairness Metric; Alternate World Index](http://example.com/)
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+---
