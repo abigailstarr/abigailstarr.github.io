@@ -1,5 +1,5 @@
 ## Technical Portfolio
-last updated 08/05/2024;
+last updated 12/18/2024;
 
 ---
 
@@ -9,17 +9,18 @@ last updated 08/05/2024;
 <img src="images/marijuana_maps.png?raw=true"/>
 
 ---
-[Clustering Chicago Neighborhoods](/pdf/sample_presentation.pdf)
+[Clustering Chicago Neighborhoods](/chicago_clustering)
 <img src="images/airbnbs.png?raw=true"/>
 
 ---
 
 ### Group Projects
 
-- [RAFI: USA](http://example.com/)
-- [EFCampus — Reducing Energy Usage in Labs](http://example.com/)
-- [Using Neural Networks to Distinguish AI-Generated from Real Art](http://example.com/)
-- [Evaluating a Novel Fairness Metric; Alternate World Index](http://example.com/)
+- [RAFI: USA](/pdf/rafi.pdf)
+- [EFCampus — Reducing Energy Usage in Labs](/pdf/efcampus.pdf)
+- [Using Neural Networks to Distinguish AI-Generated from Real Art](/ai_art_proj)
+- [Evaluating a Novel Fairness Metric; Alternate World Index](/pdf/dualfair_presentation.pdf)
+- [Power & Danger in Young Adult (YA) African American Literature](/uni_proj)
 
 ---
 ---
