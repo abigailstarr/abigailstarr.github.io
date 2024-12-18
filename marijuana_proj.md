@@ -1,31 +1,24 @@
-## mwah
+# The Legality of Cannabis, by State, & its Relation to the Price of Marijuana and the Housing Market
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project explores the relationship between cannabis legality, prices, and the Housing Price Index (HPI) in U.S. states. Using state-level data on marijuana prices (2015, 2022) and state-level HPI data (1975 to 2021), analysis suggests that while marijuana prices tend to decrease as nationwide availability increases, price is not heavily correlated with legalization status. Notably, states that allow the sale of recreational cannabis experienced faster-growing HPIs from 2015 to 2022. States permitting recreational cannabis also had higher HPIs at the start of 2015. Further research is needed to prove causation beyond observed correlations.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+## 1. Initial Questions
+- **Primary Question**: Does the legality of cannabis affect its price in U.S. states?
+- **Secondary Question**: Is there evidence of a correlation between marijuana prices and the Housing Price Index (HPI)?
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+## 2. Data Wrangling
+
+
+## 3. Methods
+
+
+## 4. Key Findings & Limitations
+
+
+## 5. Future Work
+
 
 ```javascript
 if (isAwesome){
   return true
 }
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
