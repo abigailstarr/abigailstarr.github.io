@@ -26,8 +26,7 @@
   - States permitting recreational cannabis consumption initially had higher HPIs and experienced faster growth.
 - **Limitations**:
   - Data quality; cannabis prices are self-reported
-
- 
+<br />
 <img src="images/hpi.png?raw=true"/>
 
 ## 5. Future Work
