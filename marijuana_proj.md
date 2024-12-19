@@ -18,12 +18,16 @@
 - **Price Trends**: calculated percent changes in price (adjusted for inflation) across states and visualized using choropleth maps
 - **HPI Changes**: identified patterns between HPI growth and cannabis legality and visualized using line and bar plots
 
+<img src="images/marijuana_maps.png?raw=true"/>
+
 ## 4. Key Findings & Limitations
 - **Findings**:
   - Cannabis prices have decreased nationwide, but with a weak correlation to legalization
   - States permitting recreational cannabis consumption initially had higher HPIs and experienced faster growth.
 - **Limitations**:
   - Data quality; cannabis prices are self-reported
+ 
+<img src="images/hpi.png?raw=true"/>
 
 ## 5. Future Work
 - Explore the potential correlation between legalization, taxation, and marijuana prices
