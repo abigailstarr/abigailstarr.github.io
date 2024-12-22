@@ -13,17 +13,18 @@
 
 ### 3. Model Performance
 - **Random Forest Classifier**:
-  - performed randomized search cross-validation to find best-performing hyperparameters
-    - determined max-depth of 17 and 49 estimators
-  - used a pruning path to find the best cost-complexity parameter (CCP) alpha
-    - determined specifying an alpha only decreased testing accuracy scores
-  - highest testing accuracy: **68.04%**
-  - high evidence of overfitting; training accuracy of 100%
+- performed randomized search cross-validation to find best-performing hyperparameters
+  - determined max-depth of 17 and 49 estimators
+- used a pruning path to find the best cost-complexity parameter (CCP) alpha
+  - determined specifying an alpha only decreased testing accuracy scores
+- highest testing accuracy: **68.04%**
+- high evidence of overfitting; training accuracy of 100%
+  
 - **Convolutional Neural Network**:
-  - experimented with image dimensions, learning rates, and the number of full layers
-    - determined learning rate of 0.0005, 256x256 dimensions, and 5 full layers
-  - with each epoch, testing loss decreased smoothly, suggesting the model was successfully "learning"
-  - highest testing accuracy: **71.9%**
+- experimented with image dimensions, learning rates, and the number of full layers
+  - determined learning rate of 0.0005, 256x256 dimensions, and 5 full layers
+- with each epoch, testing loss decreased smoothly, suggesting the model was successfully "learning"
+- highest testing accuracy: **71.9%**
 
 ### 4. Key Findings
 - CNN outperformed Random Forest on testing accuracy 80% of the time
