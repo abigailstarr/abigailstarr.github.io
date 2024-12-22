@@ -1,31 +1,35 @@
-## This can be your internal website page / project page
+## NLP & Power & Danger in Young Adult Literature
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** Ultimately, this project advocates for cross-disciplinary research by using data science tools to answer a humanities-based question.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Initial Data
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `spacy`, `scipy`
+- **Dataset**:
+  - 29 Young Adult (YA) Newbery Award-winning novels by African American authors
+  - 27 YA Newbery Award-winning novels by White authors
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 2. Framework and Methodology
+-
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 3. Pipeline Development
+-
 
-### 2. Assess assumptions on which statistical inference will be based
+<p align="center">
+    <img src="images/time_series.png?raw=true"/>
+p>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 4. Data Visualization and Analysis
+-
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<p align="center">
+<img src="images/ousiogram.png?raw=true" style="width: 60%;"/>
+<img src="images/length_ts.png?raw=true" style="width: 80%;"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 5. Key Findings
+-
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="images/pow_hist.png" alt="Power in Novels by Black/White Authors" style="width: 45%; margin-right: 40px;">
+  <img src="images/dang_hist.png" alt="Danger in Novels by Black/White Authors" style="width: 45%;  margin-left: 40px;">
+</div>
