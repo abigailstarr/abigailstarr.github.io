@@ -1,31 +1,34 @@
-## This can be your internal website page / project page
+## AI Image Classification
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project applies machine learning techniques such as Random Forests and Convolutional Neural Networks (CNN) to classify artwork as AI-generated or "real" (i.e. human-made). As AI-generated content becomes increasingly prevalent, this work attempts to address the need for tools that can reliably label content, particularly when it comes to the spread of misinformation. By completing this project, I exercised skills in hyperparameter tuning, model evaluation, and balancing model accuracy with overfitting.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Initial Data
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `torch`, `torchvision`, `Pillow`
+- **Dataset**:
+  - 975 images tagged as either "real" (human-made) or "AI", from Kaggle
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 2. Preprocessing
+- images were resized to 224x224 pixels and converted to RGB format
+- 70/30 split used to create training/testing sets
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 3. Model Performance
+- **Random Forest Classifier**:
+  - performed randomized search cross-validation to find best-performing hyperparameters
+    - determined max-depth of 17 and 49 estimators
+  - used a pruning path to find the best cost-complexity parameter (CCP) alpha
+    - determined specifying an alpha only decreased testing accuracy scores
+  - highest testing accuracy: **68.04%**
+  - high evidence of overfitting; training accuracy of 100%
+- **Convolutional Neural Network**:
+  - experimented with image dimensions, learning rates, and the number of full layers
+    - determined learning rate of 0.0005, 256x256 dimensions, and 5 full layers
+  - with each epoch, testing loss decreased smoothly, suggesting the model was successfully "learning"
+  - highest testing accuracy: **71.9%**
 
-### 2. Assess assumptions on which statistical inference will be based
+### 4. Key Findings
+- CNN outperformed Random Forest on testing accuracy 80% of the time
+- evidence of overfitting with both models
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 5. Future Work & Limitations
+- incorporate larger and more diverse datasets to decrease overfitting/make the model more generalizable
+- experiment with more advanced models 
