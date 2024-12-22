@@ -12,7 +12,7 @@
 - 70/30 split used to create training/testing sets
 
 ### 3. Model Performance
-- **Random Forest Classifier**:
+**Random Forest Classifier**:
 - performed randomized search cross-validation to find best-performing hyperparameters
   - determined max-depth of 17 and 49 estimators
 - used a pruning path to find the best cost-complexity parameter (CCP) alpha
@@ -20,7 +20,7 @@
 - highest testing accuracy: **68.04%**
 - high evidence of overfitting; training accuracy of 100%
   
-- **Convolutional Neural Network**:
+**Convolutional Neural Network**:
 - experimented with image dimensions, learning rates, and the number of full layers
   - determined learning rate of 0.0005, 256x256 dimensions, and 5 full layers
 - with each epoch, testing loss decreased smoothly, suggesting the model was successfully "learning"
