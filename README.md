@@ -1,7 +1,7 @@
 ## Abigail Starr's Technical Portfolio
 last updated; 12/22/24
 
-abigailstarr.github.io
+link![https://abigailstarr.github.io]
 ___
 
 ### References
