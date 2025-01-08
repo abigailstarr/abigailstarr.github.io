@@ -1,4 +1,4 @@
-## NLP & Power & Danger in Young Adult Literature
+## NLP & Power-Danger in Young Adult Literature
 
 **Project description:** This project was part of the University of Chicago's Data Science Clinic program, in partnership with the University of Northern Iowa. The Power-Danger Framework developed by Peter Dodds, et. al. scores words based on their general power (weak to strong) and danger (safe to dangerous). Applying this framework to novels by White and African American authors revealed linguistic patterns, some similar across author groups and some different. This project is important primarily because young adult literature can act as a mirror (of their own experiences) and a window (into the experiences of others) for young readers, influencing how they understand themselves and their society. This project also advocates for cross-disciplinary research by using data science tools such as Natural Language Processing to answer a humanities-based question.
 
@@ -29,6 +29,7 @@
 <p align="center">
 <img src="images/ousiogram.png?raw=true" style="width: 60%;"/>
 <img src="images/time_series.png?raw=true"/>
+</p>
 
 ### 5. Key Findings
 - a bias towards weak-safe language across all novels
