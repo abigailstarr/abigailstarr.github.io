@@ -1,5 +1,5 @@
 ## Technical Portfolio
-last updated 12/27/2024;
+last updated 01/08/2025;
 
 ---
 
