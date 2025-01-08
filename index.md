@@ -5,12 +5,12 @@ last updated 12/27/2024;
 
 ### Solo Projects
 
-[How Much is an Oz of Marijuana](/marijuana_proj)
-<img src="images/marijuana_maps.png?raw=true"/>
-
----
 [Clustering Chicago Neighborhoods](/clustering_proj)
 <img src="images/airbnbs.png?raw=true"/>
+
+---
+[How Much is an Oz of Marijuana](/marijuana_proj)
+<img src="images/marijuana_maps.png?raw=true"/>
 
 ---
 
